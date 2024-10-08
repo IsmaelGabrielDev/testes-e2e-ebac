@@ -1,0 +1,27 @@
+[
+    {
+        "nomeProduto": "Atlas Fitness Tank",
+        "tamanho": "M",
+        "cor": "Blue",
+        "quantidade": 2
+    },
+    {
+        "nomeProduto": "Cronus Yoga Pant",
+        "tamanho": "34",
+        "cor": "Red",
+        "quantidade": 1 
+    },
+    {
+        "nomeProduto": "Electra Bra Top",
+        "tamanho": "M",
+        "cor": "Purple",
+        "quantidade": 3 
+    },
+    {
+        "nomeProduto": "Hero Hoodie",
+        "tamanho": "L",
+        "cor": "Black",
+        "quantidade": 2 
+    }
+
+]
