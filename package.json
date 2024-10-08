@@ -1,7 +1,7 @@
 {
   "name": "teste-e2e-ebac",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ebac shop: http://lojaebac.ebaconline.art.br/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
