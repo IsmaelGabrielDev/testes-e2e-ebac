@@ -42,7 +42,8 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
     cy.get('.cart-collaterals').should('contain' , 'Total no carrinho')
     cy.get('.checkout-button').click()
 
-    cy.detalhesCheckout('Jorge' , 'António' ,  'R. Santa cruz' , '875' , 'São Carlos' , '13560-680' , '(18)99120-2722' , 'aluno_ebac@teste.com')
+    cy.detalhesCheckout('Jorge' , 'António' , 'Brasil' , 'R. Santa cruz' , '875' , 'São Carlos' , 'São Paulo' , '13560-680' , '(18)99120-2722' , 'aluno_ebac@teste.com')
+    
     cy.get('#terms').click()
     cy.get('#place_order').click()
   });
