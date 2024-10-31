@@ -12,7 +12,7 @@ context('Exercicio - Testes End-to-end - Fluxo de pedido', () => {
 
   beforeEach(() => {
       cy.visit('minha-conta/')
-      cy.login('aluno_ebac@teste.com' , 'teste@teste.com')
+      cy.login('Conta-Testes-Ebac@testemail.com' , 'Senhaparateste123*')
   });
 
   it('Deve fazer um pedido na loja Ebac Shop de ponta a ponta', () => {
