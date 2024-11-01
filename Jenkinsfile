@@ -5,7 +5,7 @@ pipeline {
         stage('Clonando git e instalando dependencias') {
             steps {
                 git branch: 'main', url: 'https://github.com/IsmaelGabrielDev/testes-e2e-ebac.git'
-                bat 'npm isntall'
+                bat 'npm install'
             }
         }
         stage('Testando aplicação') {
